@@ -31,19 +31,19 @@ Prettier
 <button type="button" data-action="stop">Stop</button>
 ```
 
-```css
+```javascript
 const colors = [
-     '#FFFFFF',
-     '#2196F3',
-     '#4CAF50',
-     '#FF9800',
-     '#009688',
-     '#795548',
+  '#FFFFFF',
+  '#2196F3',
+  '#4CAF50',
+  '#FF9800',
+  '#009688',
+  '#795548',
 ];
 ```
 
 Напиши скрипт, который после нажатия кнопки Start, раз в секунду меняет цвет
-фона body на случайное значение из массива используя инлайн-стиль. При нажатии
+фона body на случайное значение из массива, используя инлайн-стиль. При нажатии
 на кнопку Stop, изменение цвета фона должно останавливаться.
 
 ⚠️ Учти, на кнопку Start можно нажать бесконечное количество раз. Сделай так,
@@ -52,7 +52,7 @@ const colors = [
 Для генерации случайного числа (индекс элемента массива цветов), используй
 функцию randomIntegerFromInterval.
 
-````Javascript
+```Javascript
 const randomIntegerFromInterval = (min, max) => { return
-Math.floor(Math.random() \* (max - min + 1) + min); }; ```
-````
+Math.floor(Math.random() \* (max - min + 1) + min); };
+```
